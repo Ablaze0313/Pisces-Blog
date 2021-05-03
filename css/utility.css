@@ -1,0 +1,43 @@
+
+/* Button */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color:#20b2aa ;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+
+.btn:hover {
+    animation-name: background-color;
+    animation-duration: 1000ms;
+  }
+
+  @keyframes background-color{
+    25%{
+        background-color: #687980;
+        
+    }
+    
+    75%{
+        background-color:#f3bda1;
+    }
+    100%{
+      background-color: #02475e;
+      
+    }
+  }
+
+.bg-light{
+    background: #fff5ee;
+    color: #333;
+}
+
+.btn-dark{
+    background: #333;
+    color: #fff;
+}

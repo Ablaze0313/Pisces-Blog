@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+    background: #02475e;
+    color: #fff;
+    line-height: 1.6;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2{
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p{
+    margin: 10px 0;
+}
+
+img{
+    width: 100%;
+}
+
+/* CSS for Navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    opacity: 0.7;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+}
+
+.navbar.top{
+    background: transparent;
+}
+.navbar a{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a:hover{
+    border-bottom: #f3bda1 2px solid;
+}
+
+.navbar .logo{
+    font-weight: 500;
+    font-weight: bolder ;
+}
+
+
+/* Header */
+
+.header{
+    background: url('../images/pisces.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.header .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.header .content h1{
+    font-size: 65px;
+   
+}
+
+.header .content p{
+    font-size: 23px;
+    max-width: 600px;
+    margin: 20px 0 30px;
+    
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.815);
+}
+
+
+.header *{
+    z-index: 1;
+}
+
+/* wave */
+.custom-shape-divider-bottom-1620076808 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1620076808 svg {
+    position: relative;
+    display: block;
+    width: calc(216% + 1.3px);
+    height: 161px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1620076808 .shape-fill {
+    fill: #02475E;
+}
